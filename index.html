@@ -3,22 +3,101 @@
 <head>
   <meta charset="UTF-8">
   <title>我的履歷</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      margin-top: 30px;
+    }
+    img {
+      border-radius: 50%;
+      margin-top: 20px;
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .contact {
+      margin-top: 20px;
+    }
+    .section {
+      margin-top: 40px;
+    }
+    .skills {
+      margin-top: 40px;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: left;
+    }
+    .skill {
+      margin: 15px 0;
+    }
+    .skill-name {
+      margin-bottom: 5px;
+    }
+    .progress {
+      background: rgba(255,255,255,0.3);
+      border-radius: 10px;
+      overflow: hidden;
+      height: 20px;
+    }
+    .progress-bar {
+      background: #fff;
+      height: 100%;
+      text-align: right;
+      padding-right: 5px;
+      color: #000;
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 20px;
+      background: #fff;
+      color: #00aaff;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .button:hover {
+      background: #00aaff;
+      color: #fff;
+    }
+  </style>
 </head>
 <body>
-  <div class="resume">
-    <h1>鄭慧貞</h1>
-
-    <h2>聯絡資訊</h2>
-    <p>電話：04-7554118</p>
-    <p>手機：0916-519-067</p>
-    <p>電子郵件：09abandoned@gmail.com</p>
-    <p>地址：台中市霧峰區...</p>
-
-    <h2>學歷</h2>
-    <p>亞洲大學 — 資訊傳播學系</p>
-   <h2>工作經驗</h2>
-    <p>2023–2025：龜記茗品— 飲料店店員</p>
+  <h1>鄭慧貞</h1>
+  <img src="1B2C2412-2C13-486E-8A87-634E85AFE368.jpeg" alt="我的照片">
+  
+  <div class="contact">
+    <p>學號: AU114024040</p>
+    <p>Email: 09abandoned@gmail.com</p>
+    <p>電話: 0916-519-067</p>
+    <p>地址: 台中市霧峰區</p>
   </div>
+
+  <div class="section">
+    <h2>學歷</h2>
+    <p>亞洲大學 - 資訊傳播學系</p>
+  </div>
+
+  <div class="section">
+    <h2>工作經驗</h2>
+    <p>2023-2025 龜記茗品 飲料店店員</p>
+
+  </div>
+
+  <!-- 聯絡我按鈕 -->
+  <a href="mailto:09abandoned@gmail.com" class="button">聯絡我</a>
+  <!-- 下載 PDF 履歷按鈕 -->
+  <a href="resume.pdf" class="button" download>下載 PDF 履歷</a>
 </body>
 </html>
